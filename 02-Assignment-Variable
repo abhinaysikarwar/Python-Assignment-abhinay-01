@@ -1,0 +1,12 @@
+#1. Switch values of two strings:
+char1 = "hello"
+char2 = "java"
+print(f"Before swapping the value char1:{char1}")
+print(f"Before swapping the value char2:{char2}")
+
+char3=char1
+char1=char2
+char2=char3
+print()
+print(f"After swapping the value char1:{char1}")
+print(f"After swapping the value char2:{char2}")

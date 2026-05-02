@@ -1,0 +1,12 @@
+# 3. switch one string value with one integer value:
+n1 = 200
+char2 = "java"
+print(f"Before swapping the value n1:{n1}")
+print(f"Before swapping the value char2:{char2}")
+
+x=n1
+n1=char2
+char2=x
+print()
+print(f"After swapping the value n1:{n1}")
+print(f"After swapping the value char2:{char2}")
