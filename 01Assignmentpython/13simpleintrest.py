@@ -1,0 +1,9 @@
+#Calculate simple intrest :
+principal = 10000
+rate = 5 
+time = 2
+print(f"principal : {principal}")
+print(f"rate : {rate}")
+print(f"time : {time}")
+simple_intrest = (principal*rate*time)/100
+print(f"simple_intrest : {simple_intrest}")
