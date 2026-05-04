@@ -1,6 +1,13 @@
 # Calculate total and average of 4 subjects : -
-subjects 1 = 80
-subjects 2 = 75
-subjects 3 = 90 
-subjects 4 = 85
-total = subjects(1 + 2 + 3 + 4)
+subject_1 = 80
+subject_2 = 75
+subject_3 = 90
+subject_4 = 85
+print(f"subject_1:{subject_1}")
+print(f"subject_2:{subject_2}")
+print(f"subject_3:{subject_3}")
+print(f"subject_4:{subject_4}")
+total_marks=(subject_1+subject_2+subject_3+subject_4)
+average_marks=total_marks/4
+print(f"total_marks:{total_marks}")
+print(f"average_marks:{average_marks}")
