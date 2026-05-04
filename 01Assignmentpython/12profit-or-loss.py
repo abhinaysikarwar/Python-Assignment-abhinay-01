@@ -3,3 +3,7 @@ cost_price = 500
 selling_price = 600
 print(f"cost_price : {cost_price}")
 print(f"selling_price : {selling_price}")
+profit=selling_price-cost_price
+profit_percentage=(profit/cost_price)*100
+print(f"profit : {profit}")
+print(f"profit_percentage : {profit_percentage}")
