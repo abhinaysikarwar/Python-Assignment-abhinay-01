@@ -1,0 +1,7 @@
+# Diffrence of cubes:x^3 - y^3
+x=4
+y=1
+cubes=(x**3) - (y**3)
+print(f"x : {x}")
+print(f"y : {y}")
+print(f"Diffrence of cubes : {cubes}")
