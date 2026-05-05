@@ -1,0 +1,13 @@
+# Ask the user:
+movie=input("Enter movie name :")
+name=input("Enter your name :")
+seat_no=input("Enter your seat no :")
+show_time=input("Enter your time :")
+print("🎬 Movie Ticket 🎞️")
+print("-----------------------")
+print(f"Movie : {movie}")
+print(f"Name : {name}")
+print(f"Seat No : {seat_no}")
+print(f"Time : {show_time}")
+print(f"Enjoy the show!")
+print("-----------------------")
