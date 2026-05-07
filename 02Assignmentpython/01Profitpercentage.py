@@ -1,12 +1,14 @@
-Cost_price=int(input("Enter the price : "))
-Selling_price=int(input("Enter the price : ))
-if Selling_price > Cost_price:
-    profit = Selling_price - Cost_price
-    profit_percentage = (profit/Cost_price)*100
-    print("profit =" : profit)
-    print("profit_percentage" : profit_percentage)
-elif Selling_price < Cost_price:
-    loss = Cost_price - Selling_price
-    loss_percentage = (loss/Cost_price)*100
+cost_price = int(input("Enter cost price : "))
+selling_price = int(input("Enter selling price : "))
+if selling_price > cost_price:
+    profit = (selling_price-cost_price)
+    profit_percentage = (profit/cost_price)*100
+    print("profit =", profit)
+    print("profit_percentage =", profit_percentage)
 else:
-    (NO profit and loss)
+    selling_price < cost_price
+    loss = cost_price - selling_price
+    loss_percentage = (loss/cost_price)*100
+    print("loss =" , loss)
+    print("loss_percentage =", loss_percentage)
+
