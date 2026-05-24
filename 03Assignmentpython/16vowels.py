@@ -6,7 +6,7 @@
 # vowels = ""
 # consonants = ""
 # for i in user:
-#     if i in "aeiou":
+#     if i in "aeiouAEIOU":
 #         vowels= vowels + i
 #     else:
 #         consonants=consonants + i
