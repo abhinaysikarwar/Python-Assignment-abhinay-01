@@ -2,8 +2,8 @@
 #given string.
 
 
-user=input("Enter the character ")
-search=input("Enter the search ")
-for i in user:
-    if i == search:
-        print(i)
+# user=input("Enter the character ")
+# search=input("Enter the search ")
+# for i in user:
+#     if i == search:
+#         print(i)
