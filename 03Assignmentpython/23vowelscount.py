@@ -10,9 +10,9 @@
 #         count=count+1
 # print(count)
 
-text= "This is python for Devops and MY Name is Abhinay sikarwar"
-count=0
-for i in text:
-    if i in "aeiouAEIOU":
-        count+=1
-print(count)
+# text= "This is python for Devops and MY Name is Abhinay sikarwar"
+# count=0
+# for i in text:
+#     if i in "aeiouAEIOU":
+#         count+=1
+# print(count)
